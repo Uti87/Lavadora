@@ -1,0 +1,17 @@
+@ Programa suave
+Agua 1 5
+Agua 3
+Agua 5
+Girar 3
+Agua 5
+Girar 3 10
+@ Programa intenso
+Agua 1 15
+Girar 2
+Expulsa 2
+Agua 1 20
+@ Programa lana
+Agua 1 5
+Agua 3
+Agua 2
+Girar 3 15
