@@ -71,7 +71,7 @@ while [ $acierto -eq 0 ]; do
 		while read linea
 		do
 			echo -e "$linea"
-		done < programas.txt | awk '{print $3}' | grep @ 
+		done < programas.txt | grep "@" | awk '{print $3}' 
 
 	elif [ $opcion -eq 2 ];then
 		echo -e "\nLavado"
